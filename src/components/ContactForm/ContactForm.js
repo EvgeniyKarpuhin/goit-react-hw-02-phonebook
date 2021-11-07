@@ -39,7 +39,7 @@ export default class ContactForm extends Component {
           Number
           <input
             className={styles.TaskEditor_input}
-            type="text"
+            type="tel"
             name="number"
             value={this.state.number}
             onChange={this.handleChange}
